@@ -31,6 +31,6 @@ public class DosPuntos {
     public void calcularDistancia() {
         double pi = Math.pow((x2-x1),2) + Math.pow((y2-y1),2);
         dis = Math.sqrt(pi);
-        System.out.println(dis);
+        System.out.println("La distancia entre los dos puntos es: " + dis);
     }
 }
