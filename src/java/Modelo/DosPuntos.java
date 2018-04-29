@@ -27,4 +27,10 @@ public class DosPuntos {
         System.out.println("Ingrese el y2: ");
         y2 = lec.nextDouble();
     }
+    
+    public void calcularDistancia() {
+        double pi = Math.pow((x2-x1),2) + Math.pow((y2-y1),2);
+        dis = Math.sqrt(pi);
+        System.out.println(dis);
+    }
 }
